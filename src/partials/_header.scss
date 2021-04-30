@@ -1,0 +1,47 @@
+header{
+  color: $colordarkgrey;
+
+  .header-top{
+    @include flex-align-center;
+    justify-content: space-between;
+    padding: 10px 20px;
+
+    .left{
+      @include flex-align-center;
+
+      img{
+        width: 60px;
+        margin-right: 5px;
+        border-radius: 50%;
+      }
+    }
+
+    .right{
+      @include flex-align-center;
+      width: 75px;
+      justify-content: space-between;
+
+      img{
+        border-radius: 50%;
+      }
+
+      i{
+        color: $colorlightgrey;
+        font-size: 1.2em;
+      }
+    }
+  }
+
+  .header-bottom{
+    padding: 10px 20px;
+
+    @import '_nav.scss';
+  }
+
+  hr{
+    background-color: $colorline;
+    height: 1px;
+    border: 0;
+
+  }
+}

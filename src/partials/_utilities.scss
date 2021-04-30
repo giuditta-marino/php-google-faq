@@ -1,0 +1,12 @@
+ul.no-style{
+  list-style: none;
+}
+
+ul.inline{
+  @include flex-align-center;
+}
+
+a.normal{
+  color: $colordarkgrey;
+  text-decoration: none;
+}
