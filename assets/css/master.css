@@ -18,6 +18,23 @@ a.normal {
   box-sizing: border-box;
 }
 
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #3C4043;
+}
+
+li {
+  color: #3C4043;
+}
+
 header {
   color: #3C4043;
 }
@@ -60,4 +77,20 @@ header hr {
   background-color: #CBCBCB;
   height: 1px;
   border: 0;
+}
+
+main {
+  padding-top: 100px;
+}
+main li {
+  padding-bottom: 15px;
+}
+main li.question {
+  font-weight: 500;
+  font-size: 1.4em;
+  line-height: 1.6em;
+  padding-bottom: 25px;
+}
+main a {
+  text-decoration: none;
 }

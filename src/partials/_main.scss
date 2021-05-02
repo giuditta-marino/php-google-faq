@@ -1,5 +1,15 @@
 main{
   padding-top: 100px;
-
-
+  li{
+    padding-bottom: 15px;
+  }
+ li.question{
+   font-weight: 500;
+   font-size: 1.4em;
+   line-height: 1.6em;
+   padding-bottom: 25px;
+ }
+ a{
+   text-decoration: none;
+ }
 }
