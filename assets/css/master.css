@@ -14,7 +14,6 @@ a.normal {
 
 * {
   margin: 0;
-  padding: 0;
   box-sizing: border-box;
 }
 
@@ -70,6 +69,7 @@ header .header-bottom {
   padding: 10px 20px;
 }
 header .header-bottom nav ul {
+  padding: 0;
   width: 50%;
   justify-content: space-between;
 }
@@ -82,11 +82,11 @@ header hr {
 main {
   padding-top: 100px;
 }
-main li {
+main ul li {
   padding-bottom: 15px;
   padding-top: 15px;
 }
-main li.question {
+main ul li.question {
   font-weight: 500;
   font-size: 1.4em;
   line-height: 1.6em;
@@ -94,4 +94,8 @@ main li.question {
 }
 main a {
   text-decoration: none;
+}
+main p {
+  font-weight: 500;
+  font-size: 1.2em;
 }
