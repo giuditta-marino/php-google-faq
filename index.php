@@ -129,7 +129,6 @@ $faqs = [
         } ?>
 
         </ul>
-        <p>ciao</p>
       </div>
     </main>
     <!-- FOOTER -->

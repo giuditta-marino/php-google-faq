@@ -84,6 +84,7 @@ main {
 }
 main li {
   padding-bottom: 15px;
+  padding-top: 15px;
 }
 main li.question {
   font-weight: 500;
